@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc ;
+}
+.headeraddress{
+
+    padding: 20px 30px;
+    margin: 0px 53px 0px 0px    
+}
+.headeraddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.headeraddress p{
+    font-size:14px ;
+}
+.searchBox{
+    flex-grow: 1;
+    display: flex;
+    border: 1px solid #f4f4f4;
+    background-color: #f8f8f8;
+    border-radius: 12px
+}
+.searchBox button{
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    /* margin: 0px 0px 0px 39px; */
+    /* border: 2px solid; */
+}
+.searchBox input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.searchBox input:focus{
+    outline: none;
+}
+.hederBtn{
+    display: flex;
+    margin-right: 40px;
+    gap: 30px ;
+    /* padding: 15px; */
+    /* background: white; */
+}
+.hederBtn button{
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+
+}
+.hederBtn button:last-child{
+    color: white;
+    background-color: rgb(12,131,31);
+    border-radius: 6px;
+    /* width: 112px; */
+    gap: 6px;
+    display: flex
+;
+    width: 118px;
+    font-weight: bold;
+ 
+}
+
+
+.bannerSection{
+ 
+    max-width:1280px ;
+    margin: auto;
+}
+.bannerSection img{
+    width: 100%;
+}
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.orderBannerItems{
+    flex-basis: 25%;
+    margin: 1% ;
+}
+.orderBannerItems img{
+    width: 100%;
+}
+.orderBanner{
+    flex-direction: column;
+    padding: 10px;
+}
