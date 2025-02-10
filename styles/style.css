@@ -107,8 +107,3 @@ header{
     width: 100%;
 
 }
-.orderBanner{
-    flex-direction: column;
-    
-    padding: 10px;
-}

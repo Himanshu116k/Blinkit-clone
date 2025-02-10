@@ -53,5 +53,10 @@
         border-radius: 6px;
        
     }
+    .orderBanner{
+        flex-direction: column;
+        
+        padding: 10px;
+    }
 
 }
