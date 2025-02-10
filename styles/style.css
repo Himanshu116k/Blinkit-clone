@@ -107,3 +107,22 @@ header{
     width: 100%;
 
 }
+.categorySection{
+    max-width: 1280px;
+    margin: auto;
+}
+.categorySection{
+    max-width: 1280px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+
+
+}
+.categoryItems{
+    flex-basis: 10%;
+
+}
+.categoryItems img{
+    width: 100%;
+}
