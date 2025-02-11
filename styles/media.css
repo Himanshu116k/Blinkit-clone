@@ -73,5 +73,22 @@
         margin:  0px 24px;
         padding: 30px 10px ;
     }
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+    footer{
+        padding-top: 0px;
+    }
+    .FooterLinks__List li{
+        flex-basis: 48%;
+      }
 
+      .footer-mid-row3{
+        padding: 0px 10px;
+      }
+      .footer-mid-row2{
+        flex-direction: column;
+      }
+ 
 } 
