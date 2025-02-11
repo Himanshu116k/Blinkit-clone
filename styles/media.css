@@ -61,5 +61,17 @@
     .categoryItems{
         flex-basis: 25%;
     }
+    .producrRow{
+        padding: 0px 10px;
+        
+    }
+    .productItems{
+        flex-basis: 49%;
+        margin: 10px 0px; 
+    }
+    .productSection{
+        margin:  0px 24px;
+        padding: 30px 10px ;
+    }
 
 } 
